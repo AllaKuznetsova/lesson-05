@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+.task-1 li:first-child{
+    color:aqua;
+}
+
+.task-1 li:last-child{
+    color:darkmagenta
+}
+
+.task-1 li:not(:last-child){
+    color: burlywood;
+}
+
+.task-2 li:nth-child(2n) {
+    margin:10px;
+}
+
+
+.task-3 li:nth-child(2n+1){
+    color: red;
+}
+/* .task-3 li:nth-child(odd){
+    color: darkolivegreen;
+} */
+
+.main-menu{
+    background-color:sandybrown;
+    padding: 24px 0;
+    text-align: center;
+}
+.menu-item{
+    display: inline-block;
+    margin:0 24px; 
+}
+
+.menu-item li:last-child{
+    margin margin-left: ;:0;
+}
+
+.menu-item li:first-child{
+    margin margin-right: 0;
+}
